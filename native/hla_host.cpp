@@ -1,4 +1,5 @@
 // IEEE 1516e host adapter; no replacement RTI or synthetic callback engine.
+#include <memory>
 #include <RTI/RTIambassador.h>
 #include <RTI/RTIambassadorFactory.h>
 #include <RTI/NullFederateAmbassador.h>
