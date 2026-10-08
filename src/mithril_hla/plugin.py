@@ -14,7 +14,7 @@ def call(request):
     raise Refusal("unsupported plugin operation")
 
 class Plugin:
-    id = "fund.mithril.ieee.hla"
+    id = "fund.mithril.lib.ieee.hla"
     rpc_version = 1
     operations = ('hla-exercise',)
     call = staticmethod(call)

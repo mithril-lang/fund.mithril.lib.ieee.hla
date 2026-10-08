@@ -1,13 +1,13 @@
 {
-  "schema": "fund.mithril.interop.plugin.v1",
-  "id": "fund.mithril.ieee.hla",
-  "version": "0.2.2",
+  "schema": "fund.mithril.lib.interop.plugin.v1",
+  "id": "fund.mithril.lib.ieee.hla",
+  "version": "0.3.0",
   "rpcVersion": 1,
   "entryPoint": "mithril_hla.plugin:Plugin",
   "operations": [
     "hla-exercise"
   ],
-  "standard": "fund.mithril.ieee.hla",
+  "standard": "fund.mithril.lib.ieee.hla",
   "effects": {
     "network": true,
     "nativeProcess": true,
